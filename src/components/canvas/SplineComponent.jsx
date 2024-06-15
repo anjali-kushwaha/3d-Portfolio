@@ -17,7 +17,7 @@ const SplineComponent = () => {
       height: '900px',  // Set the desired height
       backgroundColor: 'transparent',
       position: 'relative'
-    }}>
+    }} className='sm:w-28'>
       <canvas id="canvas3d" style={{
         width: '100%',
         height: '100%',

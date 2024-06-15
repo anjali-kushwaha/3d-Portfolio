@@ -5,7 +5,7 @@ import { navLinks } from '../constants';
 // Import SVGs as image URLs
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
-import logo from '../assets/logo-no-background.png';
+import logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -19,7 +19,7 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}>
           <img src={logo} alt="logo" className='w-20 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'>Anjali Kushwaha</p>
+          <p className='text-[#915eff] text-[18px] font-bold cursor-pointer'>Anjali Kushwaha</p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (

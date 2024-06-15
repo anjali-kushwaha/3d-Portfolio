@@ -1,3 +1,12 @@
+import sass from '../assets/tech/sass.png';
+import mysql from '../assets/tech/mysql.png';
+import  bootstrap from '../assets/tech/bootstrap.png';
+import c from  '../assets/tech/c.png';
+import cplus from '../assets/tech/cplus.png';
+import vite from '../assets/tech/vite.png';
+import spline from '../assets/tech/spline.png';
+import tour from '../assets/project-1.jpeg'
+
 import {
   mobile,
   backend,
@@ -17,13 +26,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  // mysql,
-  // sass,
-  //bootstrap,
-  // c,
-  // cplush,
-  // vite,
-  // spline
+ 
 } from "../assets";
   
   export const navLinks = [
@@ -86,19 +89,19 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    // {
-    //   name: "Sass CSS",
-    //   icon: sass,
-    // },
+    {
+      name: "Sass CSS",
+      icon: sass,
+    },
     
     {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -107,26 +110,18 @@ import {
       name: "git",
       icon: git,
     },
-    // {
-    //   name: "C",
-    //   icon: c,
-    // },
-    // {
-    //   name: "C++",
-    //   icon: cplush,
-    // },
+    {
+        name: "MySQL",
+        icon: mysql,
+      },
+    {
+      name: "C++",
+      icon: cplus,
+    },
     {
       name: "figma",
       icon: figma,
     },
-    // {
-    //   name: "vite",
-    //   icon: vite,
-    // },
-    // {
-    //   name: "spline",
-    //   icon: spline,
-    // },
   ];
    
 
@@ -192,25 +187,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Tour and Travel",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
+        "Travel and Tourism website, where users can easily book their dream holiday trips. it contain a range of services provided by top tour providers, ensuring a seamless experience for the customers. Explore our curated selection of hotels and accommodations, each offering exceptional amenities and experiences.",
+        tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: tour,
+      source_code_link: "https://github.com/anjali-kushwaha/Tour-and-Travel-website",
+      demo_code_link: 'https://anjali-kushwaha.github.io/Tour-and-Travel-website/',
     },
     {
       name: "Job IT",
@@ -231,7 +227,8 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/anjali-kushwaha/Tour-and-Travel-website",
+      demo_code_link: 'https://anjali-kushwaha.github.io/Tour-and-Travel-website/',
     },
     {
       name: "Trip Guide",
@@ -252,7 +249,8 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/anjali-kushwaha/Tour-and-Travel-website",
+      demo_code_link: 'https://anjali-kushwaha.github.io/Tour-and-Travel-website/',
     },
   ];
   
