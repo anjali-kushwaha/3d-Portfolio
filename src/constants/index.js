@@ -5,7 +5,11 @@ import c from  '../assets/tech/c.png';
 import cplus from '../assets/tech/cplus.png';
 import vite from '../assets/tech/vite.png';
 import spline from '../assets/tech/spline.png';
-import tour from '../assets/project-1.jpeg'
+import tour from '../assets/tour.png';
+import ecom from '../assets/ecom.png';
+import space from '../assets/space.png';
+import scaner from '../assets/scaner.png';
+import hospital from '../assets/hospital.png';
 
 import {
   mobile,
@@ -186,6 +190,61 @@ import {
   // ];
   
   const projects = [
+    { 
+      name: "Space Tourism",
+      description:
+        "Space Tourism is an immersive website that showcases diverse moons of planets, features cabin crew profiles, and highlights the latest advancements in space exploration technologies. Explore celestial wonders, meet the crew, and stay informed about cutting-edge innovations in the captivating realm of space travel.",
+        tags: [
+        {
+          name: "React Js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Sass css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: space,
+      source_code_link: "https://github.com/anjali-kushwaha/Space-Tourism",
+      demo_code_link: "https://github.com/anjali-kushwaha/Space-Tourism",
+
+    },
+    {
+      name: "E-commerce",
+      description:
+        "E-commerce website Engage with a visually appealing landing page . Explore categorized products like headphones, watches, speakers, and earbuds. Find related items easily, navigate with a comprehensive footer, and use dynamic search for quick product access. Manage your cart effortlessly for a seamless shopping experience.",
+        tags: [
+        {
+          name: "React Js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Sass",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Strapi",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Full stack project",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: ecom,
+      source_code_link: "https://github.com/anjali-kushwaha/E-commers-website",
+      demo_code_link: 'https://drive.google.com/file/d/1hOgQsJSdeNO9RFM3nHk1SmYjLrDjx-o2/view?usp=drivesdk',
+
+    },
     {
       name: "Tour and Travel",
       description:
@@ -209,48 +268,44 @@ import {
       demo_code_link: 'https://anjali-kushwaha.github.io/Tour-and-Travel-website/',
     },
     {
-      name: "Job IT",
+      name: "Hospital",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
+        "Hospital website offers a seamless introduction to hospital services. Discover insights and experiences shared by the patients and doctors on the Reviews Page. schedule appointments conveniently through our Contact Page's form. Stay informed with our informative and engaging Blog, where hospital share articles and updates on healthcare topics.",
+        tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/anjali-kushwaha/Tour-and-Travel-website",
-      demo_code_link: 'https://anjali-kushwaha.github.io/Tour-and-Travel-website/',
+      image: hospital,
+      source_code_link: "https://github.com/anjali-kushwaha/hospital-website",
+      demo_code_link: "https://anjali-kushwaha.github.io/hospital-website/",
     },
     {
-      name: "Trip Guide",
+      name: "QR Code Generator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "QR Code Generator is a versatile website that effortlessly generates QR codes for any desired website. By scanning these codes, users are seamlessly redirected to their designated websites, simplifying access and enhancing user experience. Experience streamlined navigation through the power of QR technology.",
       tags: [
         {
-          name: "nextjs",
+          name: "React js",
           color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/anjali-kushwaha/Tour-and-Travel-website",
-      demo_code_link: 'https://anjali-kushwaha.github.io/Tour-and-Travel-website/',
+      image: scaner,
+      source_code_link: "https://github.com/anjali-kushwaha/QR-Code-Generator",
+      demo_code_link: "https://anjali-kushwaha.github.io/QR-Code-Generator/",
     },
   ];
   
